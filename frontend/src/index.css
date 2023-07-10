@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+.roboto{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+
+#header h2{
+  font-size: 40px;
+}
+#header a{
+  color: #fff;
+}
+#header .navbar-collapse{
+  flex-grow: unset;
+}
+#header ul li a{
+  font-size: 23px;
+}
+#header ul li a:hover{
+  color: rgb(255, 209, 56);
+}
+
+
+
+
+#signup .col-md-12{
+  width: 100%;
+  height: 717px;
+  background-size: cover;
+  background-position: center;
+}
+#signup span:hover{
+  text-decoration: underline;
+}
+
+
+
+
+#home .col-md-12{
+  width: 100%;
+  height: 717px;
+  background-position: center;
+  background-size: cover;
+}
+#home .col-md-6{
+  background: rgba(255, 255, 255, 0.76);
+  margin-top: 180px;
+}
+#home a{
+  color: #212529;
+}
+#home a:hover{
+  background-color: #212529;
+  color: white;
+}
+
+
+
+
+#testipage{
+  margin-top: 80px;
+}
+
+
+
+
+#dashboard{
+  height: 717px;
+}
+
+
+
+
+#printout .container{
+  height: 680px;
+}
+#printout th{
+  padding: 10px 40px;
+}
+#printout td{
+  padding: 10px 40px;
+}
